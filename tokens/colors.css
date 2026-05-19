@@ -1,0 +1,15 @@
+:root {
+  --zian-color-void-black: #000000;
+  --zian-color-obsidian: #050505;
+  --zian-color-deep-graphite: #0A0A0A;
+  --zian-color-carbon-grey: #222222;
+  --zian-color-iron-grey: #2F2F2F;
+  --zian-color-steel-grey: #555555;
+  --zian-color-titanium: #888888;
+  --zian-color-silver-mist: #CCCCCC;
+  --zian-color-monolith-white: #F6F6EE;
+  --zian-color-aura-silver: #E8EEE2;
+  --zian-color-soft-alloy: #DDE4DA;
+}
+
+/* Usage recommendation: 80% dark, 15% metallic grey, 5% aura highlight. */

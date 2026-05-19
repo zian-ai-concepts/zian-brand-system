@@ -1,0 +1,122 @@
+{
+  "$schema": "https://tokens.studio/schemas/tokens.json",
+  "zian": {
+    "color": {
+      "void-black": {
+        "value": "#000000",
+        "type": "color",
+        "description": "Haupt-Hintergrund, maximale Tiefe"
+      },
+      "obsidian": {
+        "value": "#050505",
+        "type": "color",
+        "description": "Website- und App-Hintergruende"
+      },
+      "deep-graphite": {
+        "value": "#0A0A0A",
+        "type": "color",
+        "description": "Sektionen, Cards, Navigation"
+      },
+      "carbon-grey": {
+        "value": "#222222",
+        "type": "color",
+        "description": "Panels und sekundäre Flächen"
+      },
+      "iron-grey": {
+        "value": "#2F2F2F",
+        "type": "color",
+        "description": "Schattenflächen, Hover"
+      },
+      "steel-grey": {
+        "value": "#555555",
+        "type": "color",
+        "description": "Linien, dezente Icons"
+      },
+      "titanium": {
+        "value": "#888888",
+        "type": "color",
+        "description": "Sekundärtext, Rahmen"
+      },
+      "silver-mist": {
+        "value": "#CCCCCC",
+        "type": "color",
+        "description": "Fließtext auf dunklem Grund"
+      },
+      "monolith-white": {
+        "value": "#F6F6EE",
+        "type": "color",
+        "description": "Headlines, Highlights"
+      },
+      "aura-silver": {
+        "value": "#E8EEE2",
+        "type": "color",
+        "description": "Glow, aktive Zustände"
+      },
+      "soft-alloy": {
+        "value": "#DDE4DA",
+        "type": "color",
+        "description": "Dezente Aura und Lichtschein"
+      }
+    },
+    "font": {
+      "display": {
+        "value": "Space Grotesk, Sora, sans-serif",
+        "type": "fontFamilies"
+      },
+      "body": {
+        "value": "Inter, IBM Plex Sans, sans-serif",
+        "type": "fontFamilies"
+      },
+      "mono": {
+        "value": "JetBrains Mono, IBM Plex Mono, monospace",
+        "type": "fontFamilies"
+      }
+    },
+    "radius": {
+      "sharp": {
+        "value": "4px",
+        "type": "borderRadius"
+      },
+      "panel": {
+        "value": "6px",
+        "type": "borderRadius"
+      }
+    },
+    "space": {
+      "1": {
+        "value": "8px",
+        "type": "spacing"
+      },
+      "2": {
+        "value": "16px",
+        "type": "spacing"
+      },
+      "3": {
+        "value": "24px",
+        "type": "spacing"
+      },
+      "4": {
+        "value": "40px",
+        "type": "spacing"
+      },
+      "5": {
+        "value": "64px",
+        "type": "spacing"
+      },
+      "6": {
+        "value": "96px",
+        "type": "spacing"
+      }
+    },
+    "shadow": {
+      "deep": {
+        "value": "0 32px 64px rgba(0, 0, 0, 0.72)",
+        "type": "boxShadow"
+      },
+      "glow-aura": {
+        "value": "0 0 32px rgba(221, 228, 218, 0.14)",
+        "type": "boxShadow"
+      }
+    }
+  }
+}

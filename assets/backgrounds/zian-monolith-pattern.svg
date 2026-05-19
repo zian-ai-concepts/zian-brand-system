@@ -1,0 +1,11 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="800" fill="#0A0A0A"/>
+  <g opacity="0.11" stroke="#F6F6EE">
+    <path d="M100 0v800M200 0v800M300 0v800M400 0v800M500 0v800M600 0v800M700 0v800"/>
+    <path d="M0 100h800M0 200h800M0 300h800M0 400h800M0 500h800M0 600h800M0 700h800"/>
+  </g>
+  <g opacity="0.18" stroke="#E8EEE2">
+    <path d="M400 80 566 176v248L400 596 234 424V176l166-96Z"/>
+    <path d="M400 154 500 212v170l-100 104-100-104V212l100-58Z" stroke-dasharray="4 12"/>
+  </g>
+</svg>

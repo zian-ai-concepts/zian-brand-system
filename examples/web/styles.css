@@ -1,0 +1,72 @@
+@import "../../tokens/theme.css";
+
+* { box-sizing: border-box; }
+
+body { margin: 0; }
+
+.hero {
+  min-height: 100vh;
+  padding: 40px;
+  background:
+    radial-gradient(circle at 72% 34%, rgba(221,228,218,0.16), transparent 34rem),
+    linear-gradient(180deg, #050505, #000000);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 96px;
+}
+
+.logo { width: 56px; height: 56px; }
+
+.label {
+  color: var(--zian-color-titanium);
+  font-family: var(--zian-font-mono);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+}
+
+.panel {
+  max-width: 840px;
+  padding: 64px;
+  background: rgba(10,10,10,0.78);
+  border: 1px solid rgba(246,246,238,0.14);
+  box-shadow: var(--zian-shadow-deep);
+}
+
+.eyebrow {
+  color: var(--zian-color-titanium);
+  font-family: var(--zian-font-mono);
+  letter-spacing: 0.13em;
+  font-size: 12px;
+}
+
+h1 {
+  color: var(--zian-color-monolith-white);
+  font-family: var(--zian-font-display);
+  font-size: clamp(44px, 7vw, 88px);
+  line-height: 0.95;
+  margin: 24px 0;
+}
+
+.lead {
+  color: var(--zian-color-silver-mist);
+  max-width: 620px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 32px;
+  padding: 14px 18px;
+  text-decoration: none;
+  background: #050505;
+  border: 1px solid rgba(246,246,238,0.28);
+  color: #F6F6EE;
+  font-family: var(--zian-font-mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
